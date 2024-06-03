@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="Fyle.css">
+    <script src="Fyle.js"></script>
+    <!--Below link is for Font-style Cormonrant-SC-Bold-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+SC:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+    
+    <script src="Fyle.js" defer></script>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/5.1.3/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.1.3/js/bootstrap.min.js"></script>
+   
+    
+    
+</head>
+
+<body>
+
+    <div class="container-fluid Fyle-Homepage" id="web">
+
+        <!--HOMEPAGE-PAGE-1-->
+
+        <div class="row Homepage-p-1">
+            <div class="col sm-6 Fyle content-1">
+                <div class="text-danger">AWARD WINNING</div>
+                <div class="fw-bold company-name">DIGITAL MARKETING AGENCY</div>
+                <div class="content">Morbi sed lacus nec risus finibus feugiat et fermentum nibh. Pellentesque vitae
+                    ante at elit fringilla ac at purus, Morbi sed lacus nec risus finibus feugiat et fermentum</div>
+                <button class="btn-danger" onclick="Formpopup()">CONTACT US</button>
+            </div>
+            <div class="col sm-6 Fyle-Hero-img">
+                <img src="Assets/hero.png" alt="Hero" class="rounded hero-png">
+            </div>
+
+            <!--POP UP FORM -->
+
+            <div class="form" id="form1">
+
+                <form method="post" action="https://getform.io/f/nbvvxywb">
+                    <div class="close" onclick="Close()">X</div>
+                    <div class="fw-bold Talk">Talk to us</div>
+                    <div class="mb-3 container-1">
+                        <input type="email" class="form-control cn-1" name="email" id="exampleInputEmail1"
+                            aria-describedby="emailHelp" placeholder="Work Email*">
+
+                    </div>
+                    <div class="mb-3">
+                        <input type="text" class="form-control cn-2" name="name" id="exampleInputPassword1"
+                            placeholder="First Name*">
+                        <input type="text" class="form-control cn-2" id="exampleInputPassword1"
+                            placeholder="Last Name*">
+                    </div>
+                    <div class="mb-3 form-check">
+                        <input type="checkbox" class="form-check-input cn-3" name="subscribe" value="yes" checked
+                            id="exampleCheck1">
+                        <input type="hidden" name="subscribe" value="no">
+                        <label class="form-check-label" for="exampleCheck1">I agree to Fyle's terms and conditions, and
+                            provide consent to send me communication.</label>
+                    </div>
+                    <button type="submit" class="btn btn-danger btn-1">Submit</button>
+                </form>
+            </div>
+        </div>
+
+
+        <!--HOMEPAGE-PAGE-2-->
+
+        <div class="row Homepage-p-2-service-provide">
+            <div class=" service-text-1 text-danger">WHAT WE DO</div>
+            <div class=" service">
+                <div class="service-heading">service provide for <br> you</div>
+                <div class="row-sm-4 service-content">Morbi sed lacus nec risus finibus feugiat et fermentum nibh.
+                    Pellentesque <br> vitae ante at elit fringilla ac at purus, Morbi sed lacus nec risus finibus <br>
+                    feugiat et fermentum</div>
+            </div>
+            <div class="service-img-slider ">
+                <div class="container mt-5">
+                    <div class="slider">
+                        <div class="slides">
+                            <img src="Assets/I1.png" alt="Image 1" height="400" width="400" >
+                            <img src="Assets/I2.png" alt="Image 2" height="400" width="400">
+                            <img src="Assets/I3.png" alt="Image 3" height="400" width="400">
+                        </div>
+                    </div>
+                    <div class="dots">
+                        <span class="dot active" data-index="0"></span>
+                        <span class="dot" data-index="1"></span>
+                        <span class="dot" data-index="2"></span>
+                    </div>
+                    
+                </div>
+            </div>
+
+        </div>
+
+        <!--HOMEPAGE-PAGE-3-->
+
+        <div class="row Homepage-p-3">
+            <div class="row-sm-4 text-danger p3-center-text">WHY CHOOSE US</div>
+            <div class="row-sm-4 text-p3-bold">WHY WE ARE BEST</div>
+            <div class="row-sm-4 features">
+                <div class="feature-1">
+                    <img src="Assets/f1.png" alt="">
+                    <p class="fw-bold">Clarified vision and Target</p>
+                    <p>
+                        Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy.
+                    </p>
+                </div>
+                <div class="feature-2">
+                    <img src="/Assets/f2.png" alt="">
+                    <p class="fw-bold">Clarified vision and Target</p>
+                    <p>
+                        Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy.
+                    </p>
+                </div>
+                <div class="feature-3">
+                    <img src="Assets/f3.png" alt="">
+                    <p class="fw-bold">Clarified vision and Target</p>
+                    <p>
+                        Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy.
+                    </p>
+                </div>
+                <div class="feature-4">
+                    <img src="Assets/f4.png" alt="">
+                    <p class="fw-bold">Clarified vision and Target</p>
+                    <p>
+                        Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy.
+                    </p>
+                </div>
+
+            </div>
+        </div>
+
+        <!--HOMEPAGE-PAGE-4-->
+
+        <div class="p-4 our-project">
+            <p class="text-danger text-project">OUR PROJECT</p>
+            <p class="fw-bold text-project-bold">WHY WE ARE BEST</p>
+            <div class="container mt-5 img-text-click">
+                <div class="img-change active">
+                    <img src="Assets/I1.png" alt="IG-0" height="400px" width="400px" id="ig-0">
+                    <img src="Assets/I2.png" alt="IG-1" height="400px" width="400px" id="ig-1">
+                    <img src="Assets/I3.png" alt="IG-2" height="400px" width="400px" id="ig-2">
+                </div>
+                <div class="img-text-change active" >
+                    <div class="text-change-1" data-target="ig-1">
+                        <p class="fw-bold">Genderless Kei-Japan's Hot</p>
+                        <p>Set to launch on the manufacturer’s new A330neo aircraft in 2017, it’s offering lots of</p>
+                    </div>
+                    <div class="text-change-2 bg-danger text-white" id="text-2" data-target="ig-0">
+                        <p class="fw-bold">Better Strategy and Quality</p>
+                        <p>Set to launch on the manufacturer’s new A330neo aircraft in 2017, it’s offering lots of</p>
+                    </div>
+                    <div class="text-change-3" id="text-3" data-target="ig-2">
+                        <p class="fw-bold">Genderless Kei-Japan's Hot</p>
+                        <p>Set to launch on the manufacturer’s new A330neo aircraft in 2017, it’s offering lots of</p>
+                    </div>
+                </div>
+            </div>
+            
+            
+        </div>
+
+        <!--HOMEPAGE PAGE-5-->
+
+        <div class="p-4 company-growth">
+            <p class="text-danger p4-text">EXPERT GROWTS</p>
+            <p class="fw-bold p4-text-bold">OUR COMPANY GROWTH</p>
+            <div class="rating-cards">
+                <div class="rating-card-1">
+                    <img src="/Assets/heart (2) (1).svg" alt="Heart">
+                    <p class="r-1">199 + </p>
+                    <p>Satisfied Customers</p>
+                </div>
+                <div class="rating-card-2">
+                    <img src="/Assets/clock (3).svg" alt="">
+                    <p class="r-2">1591 + </p>
+                    <p>Days of operation</p>
+                </div>
+                <div class="rating-card-3">
+                    <img src="/Assets/Path 4402.svg" alt="">
+                    <p class="r-3">283 + </p>
+                    <p>Complete project</p>
+                </div>
+                <div class="rating-card-4">
+                    <img src="/Assets/Path 4406.svg" alt="">
+                    <p class="r-4">75 +</p>
+                    <p>Win Awards</p>
+                </div>
+            </div>
+        </div>
+
+        <!--HOMEPAGE PAGE-6-->
+
+        <div class="p-5 client-feedback">
+            <p class="text-danger text-p-5">CLIENT FEEDBACK</p>
+            <p class="fw-bold text-p-5-bold">PEOPLE SAY'S ABOUT US !</p>
+            <p class="p-5-content">Jannat Tumpa The standard chunk of Lorem Ipsum used since the 1500s is <br>
+                reproduced below for those interested. Sections Bonorum et Malorum original.</p>
+            <p class="co-name"><span class="text-danger co-name"> JANNAT TUMPA</span><span class="text-muted"> - COO,
+                    AMERIMAR ENTERPRISES, INC.</span></p>
+
+        </div>
+        <div class="p-6 footer">
+            <div class="footer-content">
+                <img src="/Assets/Group 500.png" alt="GROUP-500">
+            </div>
+        </div>
+    </div>
+   
+    
+    
+    
+</body>
+
+</html>
